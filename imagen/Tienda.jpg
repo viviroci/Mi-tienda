@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> mitienda </title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<meta name="author" content="Viviana Vargas">
+
+	<script src="java/subtotal.js"> </script>
+
+</head>
+  
+  <body>
+  	
+
+  	<div class= "container">
+
+  		<div class="row">
+  			
+
+  			<div class="col-sm">
+
+  				<img src="IMEGEN1/Tienda.png" class= "imgRedonda" width="20%" >
+
+  			</div>
+
+  			<div class="col-sm">
+
+  				<p >MI TIENDA ONLINE</p>
+
+  			</div>
+
+
+  				<div class="col-sm">
+
+  					<div class = "container">
+					
+					<div class = "row">
+
+					<div class="col">
+					
+  					<p  > Carrito </p>
+					</div>
+					
+					<div class = "col">
+  					
+					<i class="fa fa-shopping-cart" ></i>	
+					
+					</div>
+					
+					</div>
+					
+					</div>
+
+
+				</div>
+	
+	</div>
+
+  		  			
+  		</div>		
+
+
+  	<div class= "container">
+
+	<div class= "row">
+	
+  		<div class = "col col-lg-6">  		
+
+  				<div class = " container">
+				
+					<div class= "row">
+				
+					<form action="listado">
+			
+											
+							<div class="row ">
+							
+							<div class = "col">
+							
+							
+						<ul class = "list-unstyled">
+						
+							<li class="media">
+							
+							<img class = "mr-3" src = "imagen/leche.jpg" alt = "leche" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txtleche"> leche </label> 	</h5>
+							
+									
+							</div>	
+							</li>
+							
+							</div>
+						
+							
+							<div class="col-6">
+
+							<input type="hidden" id="valleche" value = "1000">
+							
+							<input type="number" id="txtleche" value=1>
+							
+							</div>
+							
+							</div>
+							
+							<div class = "row">
+
+							<div class = "col">
+							
+							<li class="media">
+							
+							<img class = "mr-3" src = "IMEGEN/Pan.jpg" alt = "pan" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txtpan"> pan </label> 	</h5>
+							
+									
+							</div>	
+							</li>
+							
+							</div>
+							
+							<div class = "col-6">
+							
+							<input type="hidden" id="valpan" value = "500">
+
+					
+							<input type="number" id="txtpan" value=1>
+			
+							</div>
+							
+							</div>
+
+							<div class = "row">
+
+							<div class= "col">							
+							
+							<li class="media">
+							
+							<img class = "mr-3" src = "IMEGEN1/Huevos.jpg" alt = "huevo" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txthuevo"> huevo </label> 	</h5>
+							
+									
+							</div>	
+							</li>
+
+							</div>
+							
+							<div class= "col-6">	
+							
+							<input type="hidden" id="valhuevo" value = "200">
+					
+							<input type="number" id="txthuevo" value=1>
+							
+							</div>
+
+						</div>
+						
+					</ul>
+												
+						<div class = "row">
+
+							<div class= "col">							
+							
+									
+							<h5> <label for="txtsub1"> Subtotal </label> </h5>	
+												
+							
+							
+														
+									
+							</div>	
+									
+							
+							<div class= "col-6">	
+							
+							 <p id ="demo"> Subtotal </p>
+							
+							</div>
+
+						</div>
+			
+					<div class = "row">
+
+							<div class= "col">							
+							
+									
+							<h5> <label for="txtsub1"> IVA </label> </h5>							
+							
+							
+									
+							</div>	
+						
+
+							
+							
+							<div class= "col-6">	
+							
+							<p id="dm"> IVA <p>
+							
+							</div>
+
+						</div>
+			
+								
+					
+					</div>
+
+					</form> 							
+			
+					
+					</div>
+					
+		</div>
+		
+  			<div class= "col col-lg-6">
+
+			<div class = " container">
+				
+					<div class= "row">
+				
+					<form action="listado">
+			
+											
+							<div class="row ">
+							
+							<div class = "col">
+							
+							
+						<ul class = "list-unstyled">
+						
+							<li class="media">
+							
+							<img class = "mr-3" src = "IMEGEN/jabon.jpg" alt = "jabon" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txtjabon"> jabon </label> 	</h5>
+							
+									
+							</div>	
+							
+							<div class= "col-6">	
+							
+							<input type="hidden" id="valjabon" value = "500">
+					
+							<input type="number" id="txtjabon" value="0">
+							
+							</div>
+							</li>
+
+			
+							<li class="media">
+							
+							<img class = "mr-3" src = "IMEGEN1/Champu.jpg" alt = "shampoo" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txtshampoo"> shampoo </label> 	</h5>
+							
+									
+							</div>	
+							
+							<div class= "col-6">	
+							
+							<input type="hidden" id="valshampoo" value = "10000">
+					
+							<input type="number" id="txtshampoo" value="0">
+							
+							</div>
+							</li>
+						
+
+		
+			<li class="media">
+							
+							<img class = "mr-3" src = "IMEGEN1/Crema.jpg" alt = "crema" width = "10%">
+								
+							<div class= "media-body">
+							
+								<h5 class = "mt-0-mb-1"> <label for="txtcrema"> crema </label> 	</h5>
+							
+									
+							</div>	
+							
+							<div class= "col-6">	
+							
+							<input type="hidden" id="valcrema" value = "7000">
+					
+							<input type="number" id="txtcrema" value="0">
+							
+							</div>
+							</li>	
+					</ul>
+		<div class = "row">
+
+							<div class= "col">							
+							
+									
+													
+							<h5> <label for="txtsub1"> Subtotal </label> </h5>	
+							
+									
+							</div>	
+						
+
+							
+							
+							<div class= "col-6">	
+							
+							<p id ="demo2"> Subtotal </p>
+							
+							</div>
+
+						</div>
+			
+					<div class = "row">
+
+							<div class= "col">							
+							
+									
+													
+							<h5> <label for="txtiva2"> IVA </label> </h5>	
+							
+									
+							</div>	
+						
+
+							
+							
+							<div class= "col-6">	
+							
+							<p id ="dm2"> IVA </p>
+							
+							</div>
+
+						</div>
+			
+								
+					
+					</div>
+
+					</form> 		
+
+
+  				</div>
+				
+				</div>
+				
+				</div>
+  		</div>	
+		
+		</div>
+  			
+			<div class= "row">
+			
+			
+
+				<div class = "col">
+  				
+  					
+  					<p> Factura </p>
+
+  					<p> calcular </p>
+
+
+  				</div>
+
+  					
+				
+				<div class = "col">
+				
+				<div class = "col-4">
+				
+				<input type="button" value= "calcular" onclick ="subtotal();">
+				
+			 	
+							
+									
+							</div>	
+												
+							
+							
+
+			
+								
+									
+							</div>	
+								
+							
+							<div class= "col-6">	
+							
+						<p id="total" > TOTAL </p>	
+
+					</div>
+					
+				</div>
+				
+				<div class = "row">
+				
+				
+				<div class = "col-4">
+				
+				
+				
+							
+									
+							</div>	
+												
+							
+						
+
+			
+								
+									
+							</div>	
+								
+											
+
+
+  				</div>
+
+  			</div>
+
+
+  		
+  		</div>
+
+
+  		</body>
+		
+	</html>
